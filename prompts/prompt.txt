@@ -1,0 +1,18 @@
+You are analyzing text extracted from a construction CAD drawing.
+
+Extract the following:
+- Project name
+- Drawing type (e.g. Floor Plan, Elevation, Section)
+- Level/Floor (if available)
+- Revision (if available)
+
+Return ONLY in this JSON format:
+{
+  "project": "",
+  "drawing_type": "",
+  "level": "",
+  "revision": ""
+}
+
+Text:
+{extracted_text}

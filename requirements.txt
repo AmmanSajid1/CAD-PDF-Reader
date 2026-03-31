@@ -1,0 +1,5 @@
+pymupdf
+openai
+pandas
+tqdm
+python-dotenv
